@@ -151,11 +151,13 @@ body {
   color: #fff;
 }
 
-.gallery-item:hover .price-title {
+.gallery-item:hover .price-title,
+.gallery-item:focus .price-title {
   background-color: #1abc9c;
 }
 
-.gallery-item:hover .price {
+.gallery-item:hover .price,
+.gallery-item:focus .price {
   background-color: #7fd9c7;
 }
 
@@ -174,10 +176,11 @@ body {
 }
 
 .blog-list {
-  flex-basis: calc(100% / 3 -20px);
+  flex-basis: calc(100% / 3 - 20px);
   flex-grow: 0;
   margin-right: 30px;
 }
+
 .blog-list:last-child {
   margin-right: 0;
 }
@@ -218,7 +221,8 @@ body {
   padding-left: 45px;
 }
 
-.blog-list .link:hover {
+.blog-list .link:hover,
+.blog-list .link:focus {
   color: #fff;
   background-color: #7fd9c7;
 }
