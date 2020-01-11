@@ -37,8 +37,10 @@ body {
 
 /* CONTAINER */
 .container {
-  width: 1110px;
+  width: 1170px;
   margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 /* HEADER */
@@ -62,7 +64,7 @@ body {
   color: inherit;
 }
 
-.first-logo {
+.logo::first-letter {
   color: var(--nav-color);
   font-weight: 900;
 }
